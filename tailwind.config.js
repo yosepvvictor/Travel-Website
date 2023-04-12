@@ -2,11 +2,20 @@
 export default {
   content: [
     "./index.html",
-    "./src/*.{js,ts,jsx,tsx}",
+    "./src/*.{js,jsx}",
+    "./src/components/*/*.{js,jsx}",
+    "./src/parts/*.{js,jsx}",
+    "./src/pages/*.{js,jsx}"
   ],
   theme: {
     fontFamily: {
       'poppins': ["Poppins", 'sans-serif']
+    },
+    screens: {
+      'sm': '375px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1440px',
     },
     extend: {
       colors: {
