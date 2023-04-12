@@ -1,12 +1,14 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 import Button from "../components/Button/Button";
 import Logo from "./Logo";
-import { Link } from "react-router-dom";
 
 export default function Header(props) {
+  const location = useLocation();
+  // console.log(location);
   const getNavLinkClass = (path) => {
-    return props.location.pathname == path ? " active" : "";
+    return location.pathname == path ? " active" : "";
   };
   return (
     <header className="relative w-screen space-x-2 border-b-[1px] border-b-gray-200 font-poppins">
