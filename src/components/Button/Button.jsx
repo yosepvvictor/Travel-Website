@@ -4,7 +4,7 @@ import propTypes from "prop-types";
 
 function Button(props) {
   const className = [props.className];
-  if (props.isPrimary) className.push("btn-primary");
+  if (props.isPrimary) className.push("bg-primary");
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
   if (props.isBlock) className.push("btn-block");
@@ -74,6 +74,7 @@ Button.propTypes = {
   href: propTypes.string,
   target: propTypes.string,
   className: propTypes.string,
+  isPrimary: propTypes.bool,
   isDisabled: propTypes.bool,
   isLoading: propTypes.bool,
   isSmall: propTypes.bool,
