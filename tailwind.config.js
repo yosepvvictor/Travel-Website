@@ -22,6 +22,7 @@ export default {
         primary: "#6246F9",
         secondary: "#152C5B",
         grayish: "#152C5B",
+        pinkTag: "#FF498B",
       },
     },
   },
