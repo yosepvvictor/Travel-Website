@@ -4,7 +4,7 @@ import React from "react";
 function MostPicked(props) {
   const handleCard = () => {};
   return (
-    <section className="px-10 pb-16 pt-16 font-poppins">
+    <section className="px-16 pb-16 pt-16 font-poppins">
       <h4 className="mb-8 text-2xl font-bold">Most Picked</h4>
       <div className="grid grid-cols-3 grid-rows-2 gap-4">
         {props.data.map((item, index) => {

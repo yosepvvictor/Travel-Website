@@ -8,27 +8,23 @@ export default function Header(props) {
   const location = useLocation();
   // console.log(location);
   const getNavLinkClass = (path) => {
-    return location.pathname == path ? " active" : "";
+    return location.pathname == path ? " text-primary" : " text-grayish ";
   };
   return (
-    <header className="relative w-screen space-x-2 border-b-[1px] border-b-gray-200 font-poppins">
+    <header className="relative space-x-2 border-b-[1px] border-b-gray-200 font-poppins">
       <div className="containera">
-        <nav className="navbar-expand-lg navbar-light flex h-[80px] flex-row items-center justify-between p-10">
+        <nav className="navbar-expand-lg navbar-light flex h-[80px] flex-row items-center justify-between px-16 py-10">
           <Logo />
           <div className="collapses navbar-collapse hidden md:block">
             <ul className="ml-auto flex flex-row text-sm">
               <li className={`nav-item${getNavLinkClass("/")}`}>
-                <Button
-                  className="px-4 text-grayish hover:underline active:text-primary"
-                  type="link"
-                  href="/"
-                >
+                <Button className="px-4 hover:underline" type="link" href="/">
                   Home
                 </Button>
               </li>
               <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
                 <Button
-                  className="px-4 text-grayish hover:underline active:text-primary"
+                  className="px-4 hover:underline"
                   type="link"
                   href="/browse-by"
                 >
@@ -37,7 +33,7 @@ export default function Header(props) {
               </li>
               <li className={`nav-item${getNavLinkClass("/stories")}`}>
                 <Button
-                  className="px-4 text-grayish hover:underline active:text-primary"
+                  className="px-4 hover:underline"
                   type="link"
                   href="/stories"
                 >
@@ -46,7 +42,7 @@ export default function Header(props) {
               </li>
               <li className={`nav-item${getNavLinkClass("/agents")}`}>
                 <Button
-                  className="px-4 text-grayish hover:underline active:text-primary"
+                  className="px-4 hover:underline"
                   type="link"
                   href="/agents"
                 >

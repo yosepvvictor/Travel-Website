@@ -18,8 +18,8 @@ export default function Hero(props) {
   };
 
   return (
-    <section className="background-overlay flex w-screen flex-col items-center px-10 pt-4 font-poppins md:flex-row md:bg-transparent">
-      <div className="z-10 flex flex-col pt-8  md:z-0 md:w-3/5 md:pr-10">
+    <section className="background-overlay flex flex-col items-center px-16 pt-4 font-poppins md:flex-row md:bg-transparent">
+      <div className="z-10 flex flex-col pt-8 md:z-0 md:w-3/5 md:pr-10">
         <div className="">
           <h1 className="mb-4 text-[32px] font-bold text-secondary md:text-5xl md:leading-snug xl:text-6xl">
             Forget your busy life, <br />
@@ -82,7 +82,7 @@ export default function Hero(props) {
         </div>
       </div>
 
-      <div className="hidden md:block md:w-2/5">
+      <div className="hidde md:block md:w-2/5">
         <div className="h-fit">
           <img
             src={ImageHero}
