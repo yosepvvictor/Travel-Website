@@ -64,7 +64,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/assets/image-category-1.jpg",
+          "imageUrl": "/images/image-categories-1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/assets/image-category-2.jpg",
+          "imageUrl": "/images/image-categories-2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/assets/image-category-3.jpg",
+          "imageUrl": "/images/image-categories-3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/assets/image-category-4.jpg",
+          "imageUrl": "/images/image-categories-4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -102,7 +102,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/assets/image-category-5.jpg",
+          "imageUrl": "/images/image-categories-5.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -110,7 +110,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/assets/image-category-6.jpg",
+          "imageUrl": "/images/image-categories-6.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -118,7 +118,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/assets/image-category-7.jpg",
+          "imageUrl": "/images/image-categories-7.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -126,7 +126,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/assets/image-category-8.jpg",
+          "imageUrl": "/images/image-categories-8.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -140,7 +140,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/assets/image-category-9.jpg",
+          "imageUrl": "/images/image-categories-9.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -148,7 +148,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/assets/image-category-10.jpg",
+          "imageUrl": "/images/image-categories-10.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -156,7 +156,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/assets/image-category-11.jpg",
+          "imageUrl": "/images/image-categories-11.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -164,7 +164,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/assets/image-category-12.jpg",
+          "imageUrl": "/images/image-categories-12.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -174,7 +174,7 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/assets/testimonial-landingpages.jpg",
+    "imageUrl": "/images/testimonial-landingpages.png",
     "name": "Happy Family",
     "rate": 4.55,
     "content": "What a great trip with my family and I should try again next time soon ...",

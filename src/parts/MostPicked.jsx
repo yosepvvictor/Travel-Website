@@ -1,13 +1,13 @@
-import Button from "../components/Button/Button";
 import React from "react";
+import Button from "../components/Button/Button";
 
-function MostPicked(props) {
+function MostPicked({ data }) {
   const handleCard = () => {};
   return (
-    <section className="px-16 pb-16 pt-16 font-poppins">
-      <h4 className="mb-8 text-2xl font-bold">Most Picked</h4>
+    <section className="px-16 pt-16 font-poppins">
+      <h4 className="mb-8 text-2xl font-semibold">Most Picked</h4>
       <div className="grid grid-cols-3 grid-rows-2 gap-4">
-        {props.data.map((item, index) => {
+        {data.map((item, index) => {
           return (
             <div
               className={`col-span-1 ${
@@ -17,7 +17,7 @@ function MostPicked(props) {
               // onClick={handleCard}
             >
               <div className="relative h-full">
-                <div className="absolute right-0 top-0 z-10 w-fit rounded-bl-lg rounded-tr-md border-transparent bg-pinkTag px-6 py-1 font-semibold text-white">
+                <div className="absolute right-0 top-0 z-10 w-fit rounded-bl-2xl rounded-tr-lg border-transparent bg-pinkTag px-6 py-1 font-semibold text-white md:py-1.5">
                   ${item.price}
                   <span className="font-light">/{item.unit}</span>
                 </div>
@@ -32,7 +32,7 @@ function MostPicked(props) {
                   <Button type="link" href={`/properties/${item._id}`}>
                     <p>{item.name}</p>
                   </Button>
-                  <p>
+                  <p className="text-sm md:text-base">
                     {item.city}, {item.country}
                   </p>
                 </div>
