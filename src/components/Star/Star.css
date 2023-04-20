@@ -1,0 +1,14 @@
+.star {
+  background-image: url(../../assets/icons/Star\ 1.svg);
+  mask: url(../../assets/icons/Star\ 1.svg) no-repeat center left;
+}
+
+.star .placeholder {
+  z-index: 1;
+  background-color: gray;
+}
+
+.star:not(.placeholder) {
+  z-index: 2;
+  background-color: yellow;
+}
