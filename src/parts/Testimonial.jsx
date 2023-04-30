@@ -10,7 +10,7 @@ import { Fade } from "react-awesome-reveal";
 function Testimonial({ data }) {
   return (
     <Fade down>
-      <section className="mb-12 inline-flex  h-[510px] w-screen flex-row items-center justify-center gap-x-4 px-36 pb-8 pt-8 font-poppins">
+      <section className="mb-12 inline-flex  h-[510px] w-screen flex-row items-center justify-center gap-x-4 px-36 pb-8 pt-12 font-poppins">
         <div className="flex h-full w-1/2 justify-center">
           <img
             src={data.imageUrl}
